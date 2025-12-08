@@ -5,7 +5,6 @@ from docxtpl import DocxTemplate
 import datetime
 from tkinter import messagebox
 
-
 def clear_item():
     qty_spinbox.delete(0, tkinter.END)
     qty_spinbox.insert(0, "1")
@@ -161,6 +160,7 @@ export_excel_button = tkinter.Button(frame, text="Export to Excel", command=expo
 export_excel_button.grid(row=8, column=0, columnspan=3, sticky="news", padx=20, pady=5)
 
 window.mainloop()
+
 
 
 
