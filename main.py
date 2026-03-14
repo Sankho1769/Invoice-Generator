@@ -13,7 +13,6 @@ def clear_item():
     price_spinbox.insert(0, "0.0")
 invoice_list = []
 
-
 def add_item():
     qty = int(qty_spinbox.get())
     desc = desc_entry.get()
